@@ -1,0 +1,43 @@
+body, pre, pre code, pre:not([class]) {
+  background-color: rgb(169,169,169);
+}
+
+section code{
+  text-align: left !important;
+  font-size: .8em;
+  margin-left: 0 !important;
+  margin-right: 0 !important
+}
+
+h1.subtitle {
+  font-size: 1em;
+}
+
+h2.author, h3.date {
+  font-size: .8em;
+}
+
+img[alt="down"]{
+  border: 0px !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+img{
+  max-height: 550px !important;
+}
+
+div.backgrounds{
+  z-index:1 !important;
+}
+
+.reveal section img{
+  border:0;
+}
+
+div.reveal {
+  background-image: url("../img/AP_Logo_Wide_White_NL.svg") !important;
+  background-repeat: no-repeat !important;
+  background-position: center bottom !important;
+  background-size: 150px 50px !important;
+}
